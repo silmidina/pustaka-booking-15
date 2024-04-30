@@ -8,7 +8,7 @@
     <br>
     <h4>Alamat</h4>
     <ul type="none">
-        <li>Jl H Radian 1 Dalam No.23, Kalibaru, Medan Satria</li>
+        <li>Bekasi</li>
     </ul>
 
     <h4>Tempat Lahir</h4>
