@@ -8,17 +8,16 @@
     <br>
     <h4>Alamat</h4>
     <ul type="none">
-        <li>Jalan Ciledug Raya No. 168 Pesanggrahan</li>
+        <li>Jl H Radian 1 Dalam No.23, Kalibaru, Medan Satria</li>
     </ul>
 
     <h4>Tempat Lahir</h4>
     <ul type="none">
-        <li>Cirebon</li>
+        <li>Bekasi</li>
     </ul>
 
     <h4>Olah Raga Favorit</h4>
     <ul type="square">
         <li>Bulutangkis</li>
-        <li>Catur</li>
     </ul>
 </section>
