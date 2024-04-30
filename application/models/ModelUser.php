@@ -33,4 +33,19 @@ class ModelUser extends CI_Model
     $this->db->limit(10, 0);
     return $this->db->get();
   }
+
+  public function simpanAnggota($data = null)
+  {
+    $this->db->insert('user', $data);
+  }
+
+  public function updateAnggota($where = null, $data_simpan = null)
+  {
+    $this->db->update('user', $data_simpan, $where);
+  }
+
+  public function hapusUser($where = null)
+  {
+    $this->db->delete('user', $where);
+  }
 }
