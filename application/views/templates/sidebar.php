@@ -35,17 +35,19 @@
   <!-- Nav Item - Dashboard -->
   <li class="nav-item active">
     <!-- Nav Item - Dashboard -->
-  <li class="nav-item <?php if (uri_string() == 'buku/kategori') echo 'active'; ?>">
+  <li class="nav-item <?php if (uri_string() == 'buku/kategori' || strpos(uri_string(), 'buku/ubahkategori') !== false) echo 'active'; ?>">
     <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
-      <i class="fa fa-fw fa-list"></i>
-      <span>Kategori Buku</span></a>
-  </li>
-  <li class="nav-item <?php if (uri_string() == 'buku') echo 'active'; ?>">
+        <i class="fa fa-fw fa-list"></i>
+        <span>Kategori Buku</span>
+    </a>
+</li>
+
+  <li class="nav-item <?php if (uri_string() == 'buku' || strpos(uri_string(), 'buku/ubahBuku') !== false) echo 'active'; ?>">
     <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
       <i class="fa fa-fw fa-book"></i>
       <span>Data Buku</span></a>
   </li>
-  <li class="nav-item <?php if (uri_string() == 'user/anggota') echo 'active'; ?>">
+   <li class="nav-item <?php if (uri_string() == 'user/anggota' || strpos(uri_string(), 'user/ubahuser') !== false) echo 'active'; ?>">
     <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
       <i class="fas fa-fw fa-users"></i>
       <span>Data Anggota</span></a>
